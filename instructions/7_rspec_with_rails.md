@@ -17,6 +17,7 @@ make Rails a bit nicer when testing with RSpec.
    using the Rails conventions with a snippet like this:
 
    ```Ruby
+     require 'erb'
      require 'yaml'
      require 'active_record'
      config = YAML.load(ERB.new(IO.read('config/database.yml')).result)

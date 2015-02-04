@@ -4,7 +4,7 @@ Try to do one step at a time and not read ahead, only test valid inputs and
 work incrementally, but the goal of this is to quickly do some specs here.
 
 We will create a simple `String` calculator with a method `#add` that takes
-strings but returns numbers. The calculator will behave according to the
+string but returns numbers. The calculator will behave according to the
 following rules:
 
 ## Basic Rules

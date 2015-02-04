@@ -28,10 +28,8 @@ RSpec::Matchers.define :matcher_name do |expected|
 end
 ```
 
-What I'd like you to do is (if you haven't already) is implement these steps
-from the string calculator kata:
+What I'd like you to do is create a matcher to search the awesome app json
+structure for id without specifying intermediary keys.
 
-* It raises an error when encountering negative numbers.
-* It shows all the negative numbers encountered in the exception message
-
-And then refactor your specs to use a custom matcher to tidy this up.
+e.g. `expect(my_json).to have_id 1` would work for `get :show, id: 1` and
+      `get :index`
