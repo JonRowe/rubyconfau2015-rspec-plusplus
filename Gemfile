@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rspec', '~> 3.2'
 
 # Tools.
-gem 'rake', '~> 10.4.2'
+gem 'rake', '~> 13.0.0'
 
 # Toys.
 gem 'rails'
